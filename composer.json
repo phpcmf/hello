@@ -1,0 +1,25 @@
+{
+    "name": "cmf/hello",
+    "description": "Hello 空白扩展开发示例.",
+    "type": "cmf-extension",
+    "license": "MIT",
+    "require": {
+        "cmf/core": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmf\\Hello\\": "src/"
+        }
+    },
+    "extra": {
+        "cmf-extension": {
+            "title": "Hello",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-solid fa-h",
+                "backgroundColor": "#87ceeb",
+                "color": "#ffd700"
+            }
+        }
+    }
+}

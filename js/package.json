@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "@cmf/hello",
+    "dependencies": {
+      "cmf-webpack-config": "^2.0.0",
+      "webpack": "^5.76.1",
+      "webpack-cli": "^5.0.1"
+    },
+    "scripts": {
+      "dev": "webpack --mode development --watch",
+      "build": "webpack --mode production"
+    },
+    "devDependencies": {
+      "cmf": "^1.0.0"
+    }
+  }
+  
